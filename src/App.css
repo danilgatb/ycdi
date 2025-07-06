@@ -1,0 +1,53 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+input, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  background: #94ff0d;
+  cursor: pointer;
+}
+.toggle {
+  color: #333;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+@media (prefers-color-scheme: dark) {
+  .frosted-glass {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+  }
+  button {
+    background: #fff;
+    color: #000;
+  }
+  .toggle {
+    color: #fff;
+  }
+}

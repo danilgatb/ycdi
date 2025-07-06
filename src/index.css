@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f4ffb1, #94ff0d);
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: #fff;
+  }
+}
